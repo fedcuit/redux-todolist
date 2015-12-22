@@ -9,13 +9,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel": "^5.8.34"
+    "babel": "^5.8.34",
+    "babel-core": "^5.8.34",
+    "babel-loader": "^5.4.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
     "expect": "^1.13.4",
     "react": "^0.14.3",
-    "redux": "^3.0.5",
-    "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0"
+    "redux": "^3.0.5"
   }
 }

@@ -19,10 +19,6 @@ var common = {
   },
   module: {
     loaders: [{
-      test: /\.css$/,
-      loaders: ['style', 'css'],
-      include: APP_PATH
-    }, {
       test: /\.jsx?$/,
       loaders: ['babel'],
       include: APP_PATH
@@ -34,7 +30,7 @@ if (ENV === 'development' || !ENV) {
     devtool: 'eval',
     plugins: [
       new HtmlWebpackPlugin({
-        title: 'Kanban app'
+        title: 'TodoList'
       }),
       new webpack.HotModuleReplacementPlugin()
     ],
