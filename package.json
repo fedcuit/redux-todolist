@@ -1,0 +1,21 @@
+{
+  "name": "redux-todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.8.34"
+  },
+  "dependencies": {
+    "expect": "^1.13.4",
+    "react": "^0.14.3",
+    "redux": "^3.0.5",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
